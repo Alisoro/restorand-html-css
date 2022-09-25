@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Roboto",sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background: #070607;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/restorant.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    
+}
+
+nav{
+    box-sizing: border-box;
+    float: right;
+    display: flex;
+    margin-top: 30px;
+}
+nav li {
+    direction: none;
+    display: inline;
+}
+nav li a{
+    text-decoration:none;
+    font-size: 25px;
+    color: rgb(194, 130, 19);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-right: 80px;    
+    margin-bottom: 450px;
+}
+.logo{
+    width: 40px;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+nav li a:hover{
+      transition: 0.5s;
+      color: rgb(255, 255, 255);
+}
+.link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    float: left;
+}
+.link a{
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(189, 96, 14);
+    padding:0 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1 solid;
+}
+.link a:hover{
+    color: white;
+    transition: 0.5s;
+    border: 1px solid rgb(208, 193, 165);
+
+}
+link a{
+    
+}
+/*folder images*/
+.folder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.folder img{
+    margin: 50px auto;
+    width: 180px;
+    height: 180px; 
+    border-radius: 40px;
+    float: right;
+    margin-left: 200px;
+    opacity: 0.7;
+}
+.folder img:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.folder .img p{
+    color: aliceblue;
+}
+/*end*/
+form{
+
+display: inline-block;
+justify-content: center;
+align-items: center;
+color: rgb(227, 187, 130);
+font-weight: 800;
+height: 90px;
+width: 90px;
+margin: 220px;
+float: right;
+}
+
+p {
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    display: list-item;
+    font-size: 17px;
+    margin-bottom: 21px;
+}
+label:hover{
+    transition: 0,5s;
+    text-align: left;
+    color: rgb(178, 112, 13);
+}
+/*START SERVICE*/
+.services{
+    height: 100vh;
+    width: 100%;
+    padding: 0 1%;
+    background: #070607;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(../images/background.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.container-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 195px;
+}
+.food-logo h3{
+    font-size: 65px;
+    padding: 15px;
+    padding-right: 20px;
+    text-shadow:1px 1px 2px rgb(181, 84, 9) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(139, 56, 0);
+    color: #a6a6a6;
+}
+.food-logo p{
+    margin: -60 80px 0 0;
+    color: #d7a987;
+}  
+.food-list{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.h3-food{
+    text-shadow:1px 1px 2px rgb(181, 84, 9) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(139, 56, 0);
+     border: 3px solid #d7a987; 
+     border-radius: 15px;
+}
+::marker{
+    text-shadow:1px 1px 2px rgb(218, 198, 183) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(139, 56, 0);
+
+}
+.food-list a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px rgb(154, 10, 10) , 0 0 25px rgb(88, 43, 12) , 0 0 5px rgb(30, 15, 5);
+    color: white;
+}
+.food-list a:hover{
+    border:1px solid white;
+    color: rgb(161, 121, 121);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.food-images{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.food-img img{
+    width: 180px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 40px;
+    
+}
+
+.food-img img:hover{
+    opacity: 0.8;
+    border: 1px ridge orange;
+    transition: 0.5s;
+   
+}
+/*start-sweet*/
+.services-two{
+    height: 100vh;
+    width: 100%;
+    padding: 0 1%;
+    background: #070607;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(60, 58, 58, 0.7)),url(../images//sweet/backgraound-sweet.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.container-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+.food-logo-two h3{
+    font-size: 65px;
+    padding: 15px;
+    padding-right: 20px;
+    text-shadow:1px 1px 2px rgb(181, 170, 9) , 0 0 25px rgb(228, 236, 115) , 0 0 5px rgb(125, 139, 0);
+    color: #a6a6a6;
+}
+.food-logo-two p{
+    margin: -60 80px 0 0;
+    color: #d7a987;
+}  
+.food-list-two{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.h3-food-two{
+    text-shadow:1px 1px 2px rgb(231, 223, 217) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(198, 136, 94);
+     border: 3px solid #d7d087; 
+     border-radius: 15px;
+}
+::marker{
+    text-shadow:1px 1px 2px rgb(218, 198, 183) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(228, 228, 228);
+
+}
+.food-list-two a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px rgb(202, 110, 110) , 0 0 25px rgb(236, 133, 64) , 0 0 5px rgb(236, 236, 236);
+    color: white;
+}
+.food-list-two a:hover{
+    border:2px solid white;
+    color: rgb(212, 212, 37);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.food-images-two{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.food-img-two img{
+    width: 180px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 40px;
+    
+}
+
+.food-img-two img:hover{
+    opacity: 0.7;
+    border: 2px ridge rgb(227, 234, 82);
+    transition: 0.7s;
+}
+/*start-drinks*/
+.services-three{
+    height: 100vh;
+    width: 100%;
+    padding: 0 1%;
+    background: #070607;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images//drinks/background-drinks.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.container-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+.food-logo-three h3{
+    font-size: 65px;
+    padding: 15px;
+    padding-right: 20px;
+    text-shadow:1px 1px 2px rgb(181, 170, 9) , 0 0 25px rgb(228, 236, 115) , 0 0 5px rgb(125, 139, 0);
+    color: #a6a6a6;
+}
+.food-logo-three p{
+    margin: -60 80px 0 0;
+    color: #d7a987;
+}  
+.food-list-three{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.h3-food-three{
+    text-shadow:1px 1px 2px rgb(231, 223, 217) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(198, 136, 94);
+     border: 3px solid #d7d087; 
+     border-radius: 15px;
+}
+::marker{
+    text-shadow:1px 1px 2px rgb(218, 198, 183) , 0 0 25px rgb(236, 163, 115) , 0 0 5px rgb(228, 228, 228);
+
+}
+.food-list-three a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px rgb(202, 110, 110) , 0 0 25px rgb(236, 133, 64) , 0 0 5px rgb(236, 236, 236);
+    color: white;
+}
+.food-list-three a:hover{
+    border:2px solid white;
+    color: rgb(212, 212, 37);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.food-images-three{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.food-img-three img{
+    width: 180px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 40px;
+    
+}
+
+.food-img-three img:hover{
+    opacity: 0.7;
+    border: 2px ridge rgb(227, 234, 82);
+    transition: 0.7s;
+   
+}
+/*end-drinks*/
+/*icons*/
+.container-end  .icon-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+
+}
+.container-end  .icon-end i a{
+    padding: 15px;
+
+
+}
